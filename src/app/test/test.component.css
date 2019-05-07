@@ -1,0 +1,29 @@
+#wrapper {
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+  max-width: 960px; /* 2 */
+  padding-right: 10px; /* 3 */
+  padding-left: 10px; /* 3 */
+  background-color: #202124;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#frostbitt-navbar-image{
+  margin-top:10px;
+  width: 50%;
+  height:50%;
+}
+
+.nav-bar {
+  overflow: hidden;
+}
+
+.label-text{
+  font-size:14px;
+  color:white;
+}
+
+.mat-ink-bar {
+  background-color: #fff;
+}
+

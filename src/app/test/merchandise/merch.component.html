@@ -1,0 +1,10 @@
+<div class="merch-container">
+  <div class="merch-item" *ngFor="let merch of products">
+    <mat-card class="product-card">
+      <img src="../../../assets/pictures/t-shirt/black.png" />
+      <h1>{{merch.productName}}</h1>
+      <h2>{{merch.productDescription}}</h2>
+      <p>{{merch.productPrice}}$</p>
+    </mat-card>
+  </div>
+</div>

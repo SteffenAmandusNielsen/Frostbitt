@@ -1,0 +1,48 @@
+.product-card{
+  background-color:grey;
+  width: 20.6%;
+  margin-left:5px;
+  margin-right:5px;
+  margin-top:15px;
+
+  float:left;
+}
+
+  .product-card img {
+    display: block;
+    margin: auto;
+    width:80%;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .product-card h1 {
+    text-align:center;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .product-card h2 {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .product-card p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .product-card button {
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+
+.merch-item:hover {
+  opacity: 0.8;
+  cursor:pointer;
+}
